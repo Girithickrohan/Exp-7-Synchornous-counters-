@@ -115,3 +115,4 @@ ii)Downcounter:
 
 
 ### RESULTS 
+Thus,The 4-bit up and Down Counter is implemented Successfully.
