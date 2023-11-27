@@ -47,23 +47,44 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 4-bit Count Down Counter
 ### Procedure
 /* write all the steps invloved */
-
-
+ connect the supply (+5v) to the circuit.Switch ON the main switch. if the output is 1, then the bulb glow.
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Girithick Rohan 
+RegisterNumber:  23003797
 */
-
-
-
-
+i.) Upcounter:
+```
+module upcounter (clk, A);
+input clk;
+output reg [0:3]A;
+always@ (posedge clk)
+begin
+Α[0]=((A[1])&(A[2])&(A[3]))^A[0]; A[1]=((A[2])&(A[3]))^A[1]; A[3]=1^A[3];
+A[2]=((A[3]))^A[2];
+end
+endmodule
+```
+ii.)Downcounter:
+```
+module downcounter (clk,A); input clk;
+output reg [0:3]A;
+always@ (posedge clk)
+begin
+A[0]=((~A[1])&(~A[2])&(~A[3]))^A[0];
+A[1]=((~A[2])&(~A[3]))^A[1];
+A[2]=((~A[3]))^A[2];
+A[3]=1^A[3];
+end
+endmodule
+```
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+i)Upcounter:
 
 
 
