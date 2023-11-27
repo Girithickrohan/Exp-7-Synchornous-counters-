@@ -86,21 +86,29 @@ endmodule
 
 i)Upcounter:
 
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/up.png)
 
-
-
+ii)Downcounter:
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/do.png)
 
 
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+i)Upcounter:
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/up1.png)
 
-
+ii)Downcounter:
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/do%20(2).png)
 
 
 
 ### TRUTH TABLE 
+i)Upcounter:
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/up2.png)
 
+ii)Downcounter:
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-7-Synchornous-counters-/main/do%20(3).png)
 
 
 
